@@ -1,0 +1,38 @@
+* {
+  font-family: 'Sen', sans-serif;
+  margin: 0; padding: 0;  
+}
+
+body {
+  background: rgb(40, 41, 54);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.background-button {
+  display: flex;
+  background: #0aa;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 15px; 
+}
